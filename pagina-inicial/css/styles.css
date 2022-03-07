@@ -17,9 +17,13 @@ header{
   width: 250px;
   background: #e4f6ef;
   height: 100%;
+  display: inline-block;
+}
+
+.menu_esquerdo li{
   font-size: 30px;
   text-align: center;
-  display: inline-block;
+  position: relative;
 }
 
 .list_item{
@@ -34,7 +38,13 @@ header{
   text-align: center;
   font-size: 40px;
   display: inline-block;
-  vertical-align: middle;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+p{
+  padding: 15px;
 }
 
 p em{
