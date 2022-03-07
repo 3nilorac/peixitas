@@ -1,0 +1,46 @@
+header{
+  background-color: #77bfad;
+  padding: 20px 0;
+}
+.caixa{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#logo{
+  width: 200px;
+  margin: 20px 0 0 20px;
+}
+
+.menu_esquerdo{
+  width: 250px;
+  background: #e4f6ef;
+  height: 100%;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.list_item{
+  padding-top: 15px;
+}
+
+#home{
+  padding-top: 50px;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p em{
+  color: #11bb77;
+}
+
+#foto_main{
+  width: 60%;
+}
