@@ -23,15 +23,15 @@ header{
 .menu_esquerdo li{
   font-size: 30px;
   text-align: center;
-  position: relative;
+  position:  relative;
+  top: 45px;
+  padding: 15px;
 }
 
-.list_item{
-  padding-top: 15px;
-}
-
-#home{
-  padding-top: 50px;
+.menu_esquerdo li:hover{
+  color:#11bb77;
+  text-decoration: overline;
+  font-size: 35px;
 }
 
 .welcome{
@@ -52,5 +52,33 @@ p em{
 }
 
 #foto_main{
-  width: 60%;
+  width: 450px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.pratos{
+  width: 690px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  left: 250px;
+  bottom: 400px;
+}
+
+.pratos li{
+  text-align: center;
+  font-size: 20px;
+  margin: 0 1.5%;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.pratos img{
+  width: 350px;
+  display: inline-block;
 }
