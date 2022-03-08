@@ -8,10 +8,6 @@ header{
   width: 940px;
 }
 
-.conteudo{
-
-}
-
 .caixa{
   width: 940px;
   margin: 0 auto;
@@ -38,7 +34,7 @@ header{
 .menu_esquerdo li:hover{
   color:#11bb77;
   text-decoration: overline;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 main{
@@ -69,6 +65,14 @@ p em{
   border-radius: 15px;
 }
 
+#title_sushipg{
+  font-size: 40px;
+  color: #11bb77;
+  text-align: center;
+  margin-top: 50px;
+  vertical-align: text-top;
+}
+
 .pratos{
   margin: 0 auto;
   padding: 50px 0;
@@ -76,9 +80,19 @@ p em{
   vertical-align: middle;
 }
 
+.pratos h1{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
 .pratos h2{
   font-size: 20px;
   margin-top: 5px
+}
+
+.pratos p{
+  font-size: 15px;
 }
 
 .pratos li{
@@ -106,4 +120,22 @@ ul{
   display:inline-block;
   height: 30%;
   vertical-align: middle;
+}
+
+.sushis:hover{
+  font-weight: bold;
+  border: dotted #11bb77;
+}
+
+.page_sushi{
+  margin: 0 2% 25px 0;
+  width: 30%;
+  display:inline-block;
+  height: 30%;
+  vertical-align: middle;
+}
+
+.page_sushi:hover{
+  font-weight: bold;
+  border: dotted #11bb77;
 }
