@@ -145,7 +145,7 @@ ul{
 /*css page contato*/
 
 .contato{
-width: 300px;
+width: 345px;
 }
 
 .contato h1{
@@ -164,6 +164,36 @@ width: 300px;
 
 iframe{
   width: 290px;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-top: 45px;
+}
+
+.menu_direito{
+  background: #c8f1e1;
+  width: 220px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 117px;
+}
+
+form label, form legend{
+  display: block;
+  font-size:20px;
+  margin-top: 10px;
+}
+
+form{
+  padding-left: 20px;
+}
+
+
+.input-padrao{
+  margin-top: 15px;
+}
+
+.enviar{
+  font-size: 15px;
+  margin-top: 10px;
+
 }
