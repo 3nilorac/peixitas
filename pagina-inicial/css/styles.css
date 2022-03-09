@@ -127,6 +127,8 @@ ul{
   border: dotted #11bb77;
 }
 
+/*css page sushi*/
+
 .page_sushi{
   margin: 0 2% 25px 0;
   width: 30%;
@@ -138,4 +140,30 @@ ul{
 .page_sushi:hover{
   font-weight: bold;
   border: dotted #11bb77;
+}
+
+/*css page contato*/
+
+.contato{
+width: 300px;
+}
+
+.contato h1{
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: #11bb77;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.contato p{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+iframe{
+  width: 290px;
+  margin-left: 30px;
+  margin-top: 45px;
 }
