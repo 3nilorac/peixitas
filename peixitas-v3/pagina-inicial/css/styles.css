@@ -1,0 +1,214 @@
+body{
+  font-family: 'Stylish', sans-serif;
+  width: 100%;
+}
+
+header{
+  background-color: #77bfad;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.caixa{
+  width: 100%;;
+  margin: 0 auto;
+}
+
+#logo{
+  width: 200px;
+  margin: 20px 0 0 20px;
+}
+
+.menu_esquerdo{
+  width: 250px;
+  background: #e4f6ef;
+  height: 100%;
+  display: inline-block;
+}
+
+.menu_esquerdo li{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.menu_esquerdo li:hover{
+  color:#11bb77;
+  text-decoration: overline;
+}
+
+main{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+p{
+  padding: 15px;
+}
+
+p em{
+  color: #11bb77;
+}
+
+#foto_main{
+  width: 450px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+#title_sushipg{
+  font-size: 40px;
+  color: #11bb77;
+  text-align: center;
+  margin-top: 50px;
+  vertical-align: text-top;
+}
+
+.pratos{
+  padding: 50px 0;
+  margin-left: 5%;
+}
+
+.pratos h1{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.pratos h2{
+  font-size: 20px;
+  margin-top: 5px
+}
+
+.pratos p{
+  font-size: 15px;
+}
+
+.pratos li{
+  text-align: center;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.pratos img{
+  width: 175px;
+  display: inline-block;
+  margin: 20px 2px 10px 2px;
+}
+
+ul{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sushis{
+  margin: 0 2% 0 0;
+  width: 30%;
+  display:inline-block;
+  height: 30%;
+  vertical-align: middle;
+}
+
+.sushis:hover{
+  font-weight: bold;
+  border: dotted #11bb77;
+}
+
+/*css page sushi*/
+
+.page_sushi{
+  margin: 0 2% 25px 0;
+  width: 20%;
+  display:inline-block;
+  height: 30%;
+  vertical-align: top;
+}
+
+.page_sushi:hover{
+  font-weight: bold;
+  border: dotted #11bb77;
+}
+
+/*css page sushi premium*/
+
+.pg_sushi_premium{
+  margin: 0 2% 25px 0;
+  width: 30%;
+  display:inline-block;
+  height: 30%;
+  vertical-align: top;
+}
+
+.pg_sushi_premium:hover{
+  font-weight: bold;
+  border: dotted #11bb77;
+}
+
+/*css page contato*/
+
+.contato{
+width: 50%;
+display: inline-block;
+vertical-align: top;
+}
+
+.contato h1{
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: #11bb77;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.contato p{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+iframe{
+  width: 290px;
+  margin-left: 35%;
+  margin-top: 45px;
+}
+
+.menu_direito{
+  background: #c8f1e1;
+  width: 20em;
+  height: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  float: right;
+}
+
+form label, form legend{
+  display: block;
+  font-size:20px;
+  margin-top: 25px;
+}
+
+form{
+  padding-left: 20px;
+}
+
+
+.input-padrao{
+  margin-top: 15px;
+}
+
+.enviar{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 58px;
+
+}
