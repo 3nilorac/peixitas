@@ -1,9 +1,9 @@
 <DOCTYPE! html>
 <html>
-
+  <!-- A tag lang é bem importante: <html lang="pt-br"> -->
   <head>
     <meta charset="utf-8">
-    <title="Peixitas">
+    <title="Peixitas"> <!-- <title>Peixitas</title> -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +14,11 @@
   <body>
     <header>
       <div class="caixa">
-        <a href="index.html"><img id="logo" src="sushi_creditas.png"></a>
+        <a href="index.html"><img id="logo" src="sushi_creditas.png"></a> <!-- Importante colocar alt na logo também -->
       </div>
     </header>
 
+    <!-- <div class="main_content"> --> <!-- Ajuda pra deixar o layout fixo -->
       <aside class="menu_esquerdo">
         <nav>
           <ul>
@@ -31,12 +32,12 @@
 
       <main>
         <section class="welcome">
-          <p> Boas vindas ao <em>Peixitas Sushi</em>!</p>
+          <p> Boas vindas ao <em>Peixitas Sushi</em>!</p> <!-- <p> Seria interessante usar h1 aqui -->
           <img id="foto_main" src="https://blog.duogourmet.com.br/wp-content/uploads/2019/07/Duo-Gourmet-sushi-4.jpg" alt="Ícones de comida japonesa">
         </section>
 
         <section class="pratos">
-          <h1>Destaques</h1>
+          <h1>Destaques</h1> <!-- Aqui poderia ser p, ou outro h abaixo do h1 -->
           <ul>
             <li class="sushis">
               <h2>Niguiri</h2>
@@ -61,5 +62,28 @@
           </ul>
         </section>
       </main>
+    <!-- </div> -->
   </body>
 </html>
+
+
+<!--
+  *** Comentários gerais ***
+  * Pontos positivos *
+  - O código está muito bem organizado, com uma ótima semântica.
+  - Ótima identação.
+    -> Foi utilizado algum formatador como o Prettier? Se não, fica como dica de extensão. Basta instalar e utilizar o atalho Ctrl + Shift + P ou F ou L.
+  - A estrutura está bem organizada, sem divs desnecessárias.
+
+  * Dicas e oportunidades de melhoria *
+  - A estrutura de pastas pode ser melhorada, dividindo os arquivos em 3 pastas: html, css e assets.
+  - O CSS poderia ser dividido em 1 arquivo pra cada tela e 1 arquivo "comum" para todas as telas.
+  - Para a criação da estrutura do html, com o header contendo as tags mais importantes, pode ser utilizado o atalho html:5 do VS Code.
+  - É interessante padronizar os nomes das classes num único idioma. O usual é escrever em inglês.
+  - É usual deixar os nomes dos arquivos em inglês.
+  - Cada página deve conter apenas uma tag h1, por questões de SEO. (página contato contém 2).
+
+  - A parte main está descendo quando a página diminui.
+    Acrescente uma div com a classe main_content e defina uma largura pra ela, pra ajudar.
+    Além disso, defina a margin-left do main como -4px pra retirar o espaçamento que foi colocado automaticamente.
+  -->
