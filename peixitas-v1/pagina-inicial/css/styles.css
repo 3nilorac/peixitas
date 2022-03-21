@@ -1,6 +1,9 @@
 body{
   font-family: 'Stylish', sans-serif;
-  margin-left: 28%
+  margin-left: 28%;
+  /* Ajuda pra deixar o layout centralizado: Excluir a linha de margin left e adicionar as seguintes: */
+  /* margin: auto;
+  width: 940px; */
 }
 
 header{
@@ -42,6 +45,7 @@ main{
   display: inline-block;
   vertical-align: top;
   width: 690px;
+  /*margin-left: -4px;*/ /*correção do bug do espaçamento adicionado entre 2 divs*/ 
 }
 
 .welcome{
