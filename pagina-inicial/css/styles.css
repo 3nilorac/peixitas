@@ -18,10 +18,15 @@ header{
   margin: 20px 0 0 20px;
 }
 
+/* Ajuda pra deixar o layout fixo: */
+/*.main_content {
+  width: 940px;
+}*/
+
 .menu_esquerdo{
   width: 250px;
   background: #e4f6ef;
-  height: 100%;
+  height: 100%; /*100% de que? tomar cuidado com o uso de % quando não se tem um tamanho total bem definido. Também é possível usar o calc*/
   display: inline-block;
 }
 
@@ -34,13 +39,14 @@ header{
 .menu_esquerdo li:hover{
   color:#11bb77;
   text-decoration: overline;
-  font-size: 30px;
+  font-size: 30px; /*não precisa, já que é igual ao font-size sem o hover*/ 
 }
 
 main{
   display: inline-block;
   vertical-align: top;
   width: 690px;
+  /*margin-left: -4px;*/ /*correção do bug do espaçamento adicionado entre 2 divs*/ 
 }
 
 .welcome{
@@ -95,6 +101,7 @@ p em{
   font-size: 15px;
 }
 
+/* Onde foi definida a altura de cada? */
 .pratos li{
   text-align: center;
   padding: 5px 5px;
@@ -197,3 +204,18 @@ form{
   margin-top: 10px;
 
 }
+
+/*
+  *** Comentários gerais ***
+  * Pontos positivos *
+  - A ordem dos seletores está ótima.
+  - Utilizou bem alguns shorthands como margin, padding e border.
+  - Utilizou bem as estruturas dos seletores.
+
+  * Dicas e oportunidades de melhoria *
+  - Em alguns momentos, é mais interessante utilizar o nome da classe como seletor,
+    pois se for decidido por mudar o tipo de elemento, não será necessário mexer no CSS.
+  - É interessante agrupar alguns seletores quando os mesmos tem configurações repetidas, como sushis e page_sushi, por exemplo.
+  - É possível utilizar variáveis para cores, tamanhos e outras coisas que se repetem muitas vezes no código,
+    pra evitar digitar coisas complexas muitas vezes.
+*/
