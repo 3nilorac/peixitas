@@ -41,6 +41,8 @@ main{
   display: inline-block;
   vertical-align: top;
   margin-left: 5%;
+  /*width: calc(100% - 250px); /*ajuda pra deixar o layout fluido*/
+  /*margin-left: -4px; /*correção do bug do espaçamento adicionado entre 2 divs*/
 }
 
 .welcome{
