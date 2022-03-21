@@ -20,7 +20,8 @@ header{
 }
 
 .menu_esquerdo{
-  width: 20em;
+  width: 20em; /*cuidar com o uso do em, pois é uma unidade relativa ao tamanho da fonte do elemento pai*/
+  /*width: 20%; /*ajuda pra deixar o layout fluido*/
   background: #e4f6ef;
   height: 100%;
   display: inline-block;
@@ -41,6 +42,8 @@ main{
   display: inline-block;
   vertical-align: top;
   margin-left: 5%;
+  /*width: 80%; /*ajuda pra deixar o layout fluido*/
+  /*margin-left: -4px; /*correção do bug do espaçamento adicionado entre 2 divs*/
 }
 
 .welcome{
